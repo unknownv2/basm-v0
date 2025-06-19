@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Basm.Assembler.Directives\Basm.Assembler.Directives.csproj" />
+    <ProjectReference Include="..\Basm.Assembler.Implementation\Basm.Assembler.Implementation.csproj" />
+    <ProjectReference Include="..\Basm.Memory.Windows\Basm.Memory.Windows.csproj" />
+  </ItemGroup>
+
+</Project>

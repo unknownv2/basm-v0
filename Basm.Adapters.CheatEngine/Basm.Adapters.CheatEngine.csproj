@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Basm.Architecture.X64.Adapters.Strings\Basm.Architecture.X64.Adapters.Strings.csproj" />
+    <ProjectReference Include="..\Basm.Architecture.X64.Assemblers.Keystone\Basm.Architecture.X64.Assemblers.Keystone.csproj" />
+    <ProjectReference Include="..\Basm.Architecture.X64.Parsing.Intel\Basm.Architecture.X64.Parsing.Intel.csproj" />
+    <ProjectReference Include="..\Basm.Architecture.X64\Basm.Architecture.X64.csproj" />
+    <ProjectReference Include="..\Basm.Assembler.Scripts\Basm.Assembler.Scripts.csproj" />
+    <ProjectReference Include="..\Basm.Assembler\Basm.Assembler.csproj" />
+    <ProjectReference Include="..\Basm.CheatEngine\Basm.CheatEngine.csproj" />
+  </ItemGroup>
+
+</Project>

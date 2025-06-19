@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Basm.CheatEngine</AssemblyName>
+    <RootNamespace>Basm.CheatEngine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Basm.Architecture.X64\Basm.Architecture.X64.csproj" />
+    <ProjectReference Include="..\Basm.Architecture\Basm.Architecture.csproj" />
+    <ProjectReference Include="..\Basm.Assembler\Basm.Assembler.csproj" />
+  </ItemGroup>
+
+</Project>

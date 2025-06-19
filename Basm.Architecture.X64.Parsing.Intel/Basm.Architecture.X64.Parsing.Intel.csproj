@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Basm.Architecture.X64.Parsing\Basm.Architecture.X64.Parsing.csproj" />
+    <ProjectReference Include="..\Basm.Architecture\Basm.Architecture.csproj" />
+  </ItemGroup>
+
+</Project>
